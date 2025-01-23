@@ -59,9 +59,9 @@
       <!-- Card 4 -->
       <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto">
         <img
-          src="/images/brand.svg"
+          src="/images/brend.svg"
           alt="Brending_image"
-          class="border-dashed border-[2px] mt-4 object-none h-[210px] mx-auto"
+          class="border-dashed border-[2px]  mx-auto"
         />
         <h2 class="font-semibold text-[22px] md:text-[28px] mt-6 lg:text-center text-left md:text-left">
           Брендирование
