@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="mt-[200px]">
+    <div class="mt-[100px]">
       <h1 class="font-semibold lg:text-[40px] text-[28px] text-center lg:text-left">
         Отправим презентацию системы и промокод <br />
         на скидку до 20%
@@ -103,6 +103,7 @@ import { ref } from "vue";
 const formDataSend = ref({
   tax_rate: null,
 });
+
 </script>
 
 <style scoped>

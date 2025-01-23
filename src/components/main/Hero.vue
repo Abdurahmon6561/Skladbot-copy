@@ -5,12 +5,11 @@
     <div>
       <!-- Trophy Section -->
       <div
-  class=" gap-3 text-[16px] text-center justify-center items-center hidden sm:flex"
->
-  <img src="/images/noto_trophy.svg" alt="trofey" class="w-6 h-6" />
-  <p class="font-normal">Лучшие стартапы России. Продукт недели #2</p>
-</div>
-
+        class="gap-3 text-[16px] text-center justify-center items-center hidden sm:flex"
+      >
+        <img src="/images/noto_trophy.svg" alt="trofey" class="w-6 h-6" />
+        <p class="font-normal">Лучшие стартапы России. Продукт недели #2</p>
+      </div>
 
       <!-- Header Section -->
       <div class="w-full lg:w-[771px] text-center mt-[40px]">
@@ -32,6 +31,7 @@
         class="flex flex-col lg:flex-row gap-4 mt-10 lg:mt-14 justify-center"
       >
         <button
+          @click="scrollToPresentation"
           class="bg-[#3C57FF] rounded-md text-white font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8"
         >
           Получить видео-презентацию
@@ -46,8 +46,18 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
 
-<style scoped>
-/* Add any additional styles if necessary */
-</style>
+const presentationRef = ref(null);
+
+const scrollToPresentation = () => {
+  console.log("Scroll function triggered");
+  if (presentationRef.value) {
+    presentationRef.value.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+};
+</script>
