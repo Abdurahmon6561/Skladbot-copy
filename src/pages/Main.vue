@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-   <div class="container items-center justify-center p-6 mx-auto">
+   <div class="container items-center justify-center p-2 mx-auto w-full">
     <Navbar />
     <main>
       <Hero />

@@ -1,11 +1,11 @@
 <template>
-  <div class="flex justify-center items-center mt-[100px]">
+  <div class="flex justify-center items-center mt-[100px] p-6">
     <div>
       <h1 class="font-semibold text-[40px] text-center">Отзывы</h1>
 
       <div class="lg:grid lg:grid-cols-3 gap-5 mt-[66px]">
-        <div class="p-6 bg-white rounded-2xl w-[393px]">
-          <h2 class="text-[#3F4685] font-semibold text-[20px]">
+        <div class="p-6 bg-white rounded-2xl lg:w-[393px]">
+          <h2 class="text-[#3F4685] font-semibold lg:text-[20px]">
             Дорабатывают систему быстро и без бюрократии
           </h2>
           <p class="font-normal text-[17px] text-[#242424] w-[333px] mt-5">
@@ -22,7 +22,7 @@
           <p class="font-bold text-[16px]">Фулсар</p>
         </div>
 
-        <div class="p-6 bg-white rounded-2xl w-[393px] mt-[30px] lg:mt-0">
+        <div class="p-6 bg-white rounded-2xl lg:w-[393px] mt-[30px] lg:mt-0">
           <h2 class="text-[#3F4685] font-semibold text-[20px]">
             Ребята сделали продукт, у которого нет альтернатив на рынке
           </h2>
@@ -41,7 +41,7 @@
           <p class="font-bold text-[16px]">SellerLab</p>
         </div>
 
-        <div class="p-6 bg-white rounded-2xl w-[393px] mt-[30px] lg:mt-0">
+        <div class="p-6 bg-white rounded-2xl lg:w-[393px] mt-[30px] lg:mt-0">
           <h2 class="text-[#3F4685] font-semibold text-[20px]">
             Благодаря SkladBot, мы начали расти
           </h2>

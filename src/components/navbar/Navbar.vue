@@ -1,8 +1,8 @@
 <template>
-  <div class="relative flex justify-between items-center p-4">
+  <div class="flex justify-between items-center p-4">
     <!-- Logo -->
     <router-link to="/">
-      <img src="/images/logo.svg" alt="logo" class="w-[83px]" />
+      <img src="/images/logo.svg" alt="logo" class="lg:w-[83px]" />
     </router-link>
 
     <!-- Hamburger Menu Button (visible on phones only) -->

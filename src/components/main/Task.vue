@@ -15,7 +15,7 @@
             <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
               Оцифрованный склад вместо 50 листов в Excel
             </h2>
-            <p class="font-normal text-[17px] text-start mt-3">
+            <p class="font-normal lg:text-[17px] text-start mt-3">
               Ячеечное хранение и оцифровка продуктов помогают не терять товар
               на складе и тратить меньше времени на ведение таблиц.
             </p>
@@ -25,7 +25,7 @@
   <h2 class="font-semibold text-[25px] text-white text-start">
     Автоматический учёт КИЗов
   </h2>
-  <p class="font-normal text-[17px] text-start mt-3 text-white">
+  <p class="font-normal lg:text-[17px] text-start mt-3 text-white">
     За каждый неправильный или дублированный КИЗ — штраф от 1500 ₽.
     SkladBot ведёт автоматический учёт отсканированных КИЗов и не даёт
     распечатать их повторно. Повторная распечатка доступна только
@@ -40,7 +40,7 @@
               <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
                 Автоматическое выставление счетов и отчётов
               </h2>
-              <p class="font-normal text-[17px] text-start mt-3 text-[#3F4685]">
+              <p class="font-normal lg:text-[17px] text-start mt-3 text-[#3F4685]">
                 SkladBot автоматически формирует КП, счёт на оплату и детальный
                 отчёт по работе. Менеджеру не нужно тратить время на выставление
                 счетов и отвечать на вопрос: «Что с моим товаром?».
@@ -51,7 +51,7 @@
               <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
                 Оцифрованные заявки вместо сбора ТЗ по чатам
               </h2>
-              <p class="font-normal text-[17px] text-start mt-3">
+              <p class="font-normal lg:text-[17px] text-start mt-3">
                 SkladBot автоматизирует подачу заявок. Менеджеру не нужно
                 собирать ТЗ от селлеров по чатам — клиенты самостоятельно подают
                 заявки через стандартизированную форму в личном кабинете.
@@ -66,8 +66,4 @@
   <script setup>
   // No specific data or methods required for this static content
   </script>
-  
-  <style scoped>
-  /* Add any additional styles here */
-  </style>
   
