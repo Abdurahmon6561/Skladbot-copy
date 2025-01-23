@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-[130px]">
+  <div class="grid grid-cols-1 p-6 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-[110px]">
     <div class="p-6 bg-white rounded-2xl lg:h-[328px] transition duration-500 ease-in-out hover:scale-105">
       <img src="/images/to-seller.svg" alt="icon" />
       <h2 class="text-[20px] text-[#3F4685] font-semibold mt-[20px]">

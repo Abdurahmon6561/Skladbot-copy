@@ -9,7 +9,7 @@
         <img
           src="/images/Play.svg"
           alt="play"
-          class="cursor-pointer transition-transform duration-700 hover:scale-110"
+          class="cursor-pointer transition-transform duration-700 hover:scale-110 lg:mt-0 mt-[-300px] lg:w-[180px] w-[80px]"
           @click="handlePlayClick"
         />
       </div>

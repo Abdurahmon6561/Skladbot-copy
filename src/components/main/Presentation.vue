@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div class="mt-[200px]">
-      <h1 class="font-semibold lg:text-[40px] text-[28px] text-center">
+      <h1 class="font-semibold lg:text-[40px] text-[28px] text-center lg:text-left">
         Отправим презентацию системы и промокод <br />
         на скидку до 20%
       </h1>

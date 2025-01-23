@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center lg:p-6 mt-[180px] container items-center mx-auto">
-      <div class="lg:flex justify-around bg-[#3C57FF] lg:rounded-[40px] lg:h-[415px] w-full p-[40px]">
+      <div class="lg:flex justify-around bg-[#3C57FF] lg:rounded-[40px] lg:h-[415px] w-full lg:p-[40px] p-4">
         <div>
           <img src="/images/footer_logo.svg" alt="logo" />
           <p class="w-[120px] mt-4 hidden lg:block text-white">Сайт сделали в Контент-отделе</p>
