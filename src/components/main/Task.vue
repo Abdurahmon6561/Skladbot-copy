@@ -24,7 +24,7 @@
             складе и тратить меньше времени на ведение таблиц.
           </p>
         </div>
-        <!-- Second div -->
+        <!-- Second div (No rotation) -->
         <div
           :class="{ 'animate-slide-in-no-rotate': isVisible, 'opacity-0': !isVisible }"
           class="lg:z-10 lg:w-[548px] lg:h-[231px] rounded-2xl bg-[#3C57FF] p-6 lg:mt-[160px] mt-[70px] lg:ml-[-80px]"
@@ -40,8 +40,8 @@
           </p>
         </div>
 
+        <!-- Third div (Slide from right) -->
         <div class="lg:z-10">
-          <!-- Third div  -->
           <div
             :class="{ 'animate-slide-in-right': isVisible, 'opacity-0': !isVisible }"
             class="lg:z-10 lg:w-[500px] lg:h-[231px] rounded-2xl bg-white p-6 mt-[70px] lg:mt-0 lg:ml-[-80px] transform -rotate-[3.06deg] lg:rotate-0"
@@ -57,10 +57,10 @@
               счетов и отвечать на вопрос: «Что с моим товаром?».
             </p>
           </div>
-  
-          <!-- Fourth div  -->
+
+          <!-- Fourth div -->
           <div
-            :class="{ 'animate-slide-in-right': isVisible, 'opacity-0': !isVisible }"
+            :class="{ 'animate-slide-in-right-rotate': isVisible, 'opacity-0': !isVisible }"
             class="lg:w-[493px] lg:h-[280px] rounded-2xl transform lg:-rotate-[6.06deg] rotate-[4.06deg] mt-[50px] bg-[#E7EEFF] p-6 lg:mt-[80px] lg:ml-[-80px]"
           >
             <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
@@ -94,7 +94,7 @@ const handleScroll = (entries) => {
 
 onMounted(() => {
   const observer = new IntersectionObserver(handleScroll, {
-    threshold: 0.3, 
+    threshold: 0.3, // Trigger when 30% of the element is visible
   });
   if (container.value) {
     observer.observe(container.value);
@@ -140,6 +140,17 @@ onMounted(() => {
   }
 }
 
+@keyframes slide-in-right-rotate {
+  0% {
+    opacity: 0;
+    transform: translateX(100%) rotate(-6.06deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(-6.06deg);
+  }
+}
+
 .animate-slide-in-left {
   animation: slide-in-left 1s ease-out forwards;
 }
@@ -150,5 +161,9 @@ onMounted(() => {
 
 .animate-slide-in-right {
   animation: slide-in-right 1s ease-out forwards;
+}
+
+.animate-slide-in-right-rotate {
+  animation: slide-in-right-rotate 1s ease-out forwards;
 }
 </style>
