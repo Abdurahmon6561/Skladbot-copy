@@ -10,16 +10,16 @@
           который сэкономит время и убережёт от штрафов.
         </p>
       </div>
-      <div class="mt-[80px] lg:flex">
+      <div class="mt-[80px] lg:flex p-[10px]">
         <!-- First div -->
         <div
           class="lg:w-[435px] lg:h-[280px] rounded-2xl transform -rotate-[6.06deg] bg-[#E7EEFF] p-6"
           :class="{ 'animate-slide-in-left': isVisible, 'opacity-0': !isVisible }"
         >
-          <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
+          <h2 class="font-semibold lg:text-[25px] text-[19px] text-[#3F4685] text-start">
             Оцифрованный склад вместо 50 листов в Excel
           </h2>
-          <p class="font-normal lg:text-[17px] text-start mt-3">
+          <p class="font-normal lg:text-[17px] text-[15px] text-start mt-3">
             Ячеечное хранение и оцифровка продуктов помогают не терять товар на
             складе и тратить меньше времени на ведение таблиц.
           </p>
@@ -29,10 +29,10 @@
           :class="{ 'animate-slide-in-no-rotate': isVisible, 'opacity-0': !isVisible }"
           class="lg:z-10 lg:w-[548px] lg:h-[231px] rounded-2xl bg-[#3C57FF] p-6 lg:mt-[160px] mt-[70px] lg:ml-[-80px]"
         >
-          <h2 class="font-semibold text-[25px] text-white text-start">
+          <h2 class="font-semibold lg:text-[25px] text-[19px] text-white text-start">
             Автоматический учёт КИЗов
           </h2>
-          <p class="font-normal lg:text-[17px] text-start mt-3 text-white">
+          <p class="font-normal lg:text-[17px] text-[15px]  text-start mt-3 text-white">
             За каждый неправильный или дублированный КИЗ — штраф от 1500 ₽.
             SkladBot ведёт автоматический учёт отсканированных КИЗов и не даёт
             распечатать их повторно. Повторная распечатка доступна только
@@ -46,11 +46,11 @@
             :class="{ 'animate-slide-in-right': isVisible, 'opacity-0': !isVisible }"
             class="lg:z-10 lg:w-[500px] lg:h-[231px] rounded-2xl bg-white p-6 mt-[70px] lg:mt-0 lg:ml-[-80px] transform -rotate-[3.06deg] lg:rotate-0"
           >
-            <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
+            <h2 class="font-semibold lg:text-[25px] text-[19px] text-[#3F4685] text-start">
               Автоматическое выставление счетов и отчётов
             </h2>
             <p
-              class="font-normal lg:text-[17px] text-start mt-3 text-[#3F4685]"
+              class="font-normal lg:text-[17px] text-[15px]  text-start mt-3 text-[#3F4685]"
             >
               SkladBot автоматически формирует КП, счёт на оплату и детальный
               отчёт по работе. Менеджеру не нужно тратить время на выставление
@@ -63,10 +63,10 @@
             :class="{ 'animate-slide-in-right-rotate': isVisible, 'opacity-0': !isVisible }"
             class="lg:w-[493px] lg:h-[280px] rounded-2xl transform lg:-rotate-[6.06deg] rotate-[4.06deg] mt-[50px] bg-[#E7EEFF] p-6 lg:mt-[80px] lg:ml-[-80px]"
           >
-            <h2 class="font-semibold text-[25px] text-[#3F4685] text-start">
+            <h2 class="font-semibold lg:text-[25px] text-[19px] text-[#3F4685] text-start">
               Оцифрованные заявки вместо сбора ТЗ по чатам
             </h2>
-            <p class="font-normal lg:text-[17px] text-start mt-3">
+            <p class="font-normal lg:text-[17px] text-[15px] text-start mt-3">
               SkladBot автоматизирует подачу заявок. Менеджеру не нужно собирать
               ТЗ от селлеров по чатам — клиенты самостоятельно подают заявки
               через стандартизированную форму в личном кабинете.

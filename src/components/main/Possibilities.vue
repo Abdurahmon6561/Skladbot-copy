@@ -9,7 +9,7 @@
         Возможности Skladbot
       </h1>
       <div
-        class="mt-[30px] sm:mt-[40px] md:mt-[50px] flex flex-wrap justify-between gap-4 sm:gap-3 md:gap-4 lg:gap-4"
+        class="mt-[30px] sm:mt-[40px] md:mt-[50px] flex flex-wrap lg:justify-between gap-4 sm:gap-3 md:gap-4 lg:gap-4"
       >
         <button
           v-for="(buttonText, index) in buttonTexts"
