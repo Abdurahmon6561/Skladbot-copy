@@ -5,12 +5,11 @@
     <div>
       <!-- Trophy Section -->
       <div
-  class=" gap-3 text-[16px] text-center justify-center items-center hidden sm:flex"
->
-  <img src="/images/noto_trophy.svg" alt="trofey" class="w-6 h-6" />
-  <p class="font-normal">Лучшие стартапы России. Продукт недели #2</p>
-</div>
-
+        class="gap-3 text-[16px] text-center justify-center items-center hidden sm:flex"
+      >
+        <img src="/images/noto_trophy.svg" alt="trofey" class="w-6 h-6" />
+        <p class="font-normal">Лучшие стартапы России. Продукт недели #2</p>
+      </div>
 
       <!-- Header Section -->
       <div class="w-full lg:w-[771px] text-center mt-[40px]">
