@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col ">
     <div class="container items-center justify-center p-2 mx-auto w-full">
       <Navbar />
       <main>
@@ -45,7 +45,7 @@
         <div ref="presentationRef">
           <Presentation />
         </div>
-        <Task />
+        <!-- <Task /> -->
         <Possibilities />
         <Results />
         <Support />

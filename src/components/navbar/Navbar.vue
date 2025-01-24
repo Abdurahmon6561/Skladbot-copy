@@ -1,11 +1,10 @@
 <template>
-  <div class="relative flex justify-between items-center p-4">
-    <!-- Logo -->
+  <div class="relative flex justify-between items-center p-2">
     <router-link to="/">
       <img src="/images/logo.svg" alt="logo" class="lg:w-[83px]" />
     </router-link>
 
-    <!-- Hamburger Menu Button (visible on phones only) -->
+    <!-- Hamburger  -->
     <button
       class="block md:hidden p-2"
       @click="isMobileMenuOpen = !isMobileMenuOpen"
