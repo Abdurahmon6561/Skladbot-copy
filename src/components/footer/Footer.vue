@@ -3,7 +3,6 @@
       <div class="lg:flex justify-around bg-[#3C57FF] lg:rounded-[40px] lg:h-[415px] w-full lg:p-[40px] p-4">
         <div>
           <img src="/images/footer_logo.svg" alt="logo" />
-          <p class="w-[120px] mt-4 hidden lg:block text-white">Сайт сделали в Контент-отделе</p>
         </div>
   
         <div class="flex lg:block justify-between lg:mt-0 mt-[30px]">

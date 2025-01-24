@@ -1,15 +1,1 @@
-<svg width="44.000000" height="44.000000" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
-	<g style="mix-blend-mode:normal">
-		<rect id="Rectangle 39" rx="9.000000" width="44.000000" height="44.000000" fill="#F0F3F8" fill-opacity="1.000000"/>
-	</g>
-	<path id="Vector" d="M34.83 23.33L34.83 18C34.83 11.33 32.16 8.66 25.5 8.66L17.5 8.66C10.83 8.66 8.16 11.33 8.16 18L8.16 26C8.16 32.66 10.83 35.33 17.5 35.33L22.83 35.33" stroke="#1B31FF" stroke-opacity="1.000000" stroke-width="1.800000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Vector" d="M15.27 25.31L18.44 21.19C18.9 20.61 19.74 20.5 20.32 20.95L22.76 22.87C23.35 23.33 24.19 23.22 24.64 22.65L27.72 18.67" stroke="#1B31FF" stroke-opacity="1.000000" stroke-width="1.800000" stroke-linejoin="round" stroke-linecap="round"/>
-	<path id="Vector" d="M31.84 27.85C32.03 28.22 32.49 28.57 32.91 28.65L33.41 28.73C34.93 28.98 35.29 30.1 34.2 31.21L33.73 31.68C33.43 32 33.25 32.61 33.35 33.04L33.41 33.32C33.83 35.16 32.85 35.86 31.25 34.9L30.91 34.7C30.49 34.46 29.83 34.46 29.41 34.7L29.07 34.9C27.45 35.87 26.48 35.16 26.91 33.32L26.97 33.04C27.07 32.61 26.89 32 26.59 31.68L26.12 31.21C25.03 30.1 25.39 28.98 26.91 28.73L27.41 28.65C27.81 28.58 28.29 28.22 28.48 27.85L28.85 27.09C29.57 25.64 30.75 25.64 31.47 27.09L31.84 27.85Z" stroke="#1B31FF" stroke-opacity="1.000000" stroke-width="1.800000" stroke-linejoin="round"/>
-	<g opacity="0.000000">
-		<path id="Vector" d="M5.5 6L37.5 6L37.5 38L5.5 38L5.5 6ZM7.3 36.2L7.3 7.79L35.69 7.79L35.69 36.2L7.3 36.2Z" fill="#1B31FF" fill-opacity="1.000000" fill-rule="evenodd"/>
-	</g>
-</svg>
+<svg width="44" height="44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect rx="9" width="44" height="44" fill="#F0F3F8" style="mix-blend-mode:normal"/><path d="M34.83 23.33V18c0-6.67-2.67-9.34-9.33-9.34h-8c-6.67 0-9.34 2.67-9.34 9.34v8c0 6.66 2.67 9.33 9.34 9.33h5.33" stroke="#1B31FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="m15.27 25.31 3.17-4.12c.46-.58 1.3-.69 1.88-.24l2.44 1.92c.59.46 1.43.35 1.88-.22l3.08-3.98" stroke="#1B31FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/><path d="M31.84 27.85c.19.37.65.72 1.07.8l.5.08c1.52.25 1.88 1.37.79 2.48l-.47.47c-.3.32-.48.93-.38 1.36l.06.28c.42 1.84-.56 2.54-2.16 1.58l-.34-.2c-.42-.24-1.08-.24-1.5 0l-.34.2c-1.62.97-2.59.26-2.16-1.58l.06-.28c.1-.43-.08-1.04-.38-1.36l-.47-.47c-1.09-1.11-.73-2.23.79-2.48l.5-.08c.4-.07.88-.43 1.07-.8l.37-.76c.72-1.45 1.9-1.45 2.62 0l.37.76z" stroke="#1B31FF" stroke-width="1.8" stroke-linejoin="round"/></svg>
