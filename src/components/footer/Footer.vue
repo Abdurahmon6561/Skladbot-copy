@@ -9,31 +9,31 @@
           <h3 class="font-semibold text-[20px] text-white lg:mt-0 mt-[15px]">Возможности</h3>
           <ul class="space-y-2 mt-[20px] mr-[80px] lg:mr-0">
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Процессы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Процессы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Календарь</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Календарь</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Склад</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Склад</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Центр заявок</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Центр заявок</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Модуль FBS</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Модуль FBS</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Клиенты</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Клиенты</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Документы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Документы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Сотрудники</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Сотрудники</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Приложение</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Приложение</a>
             </li>
           </ul>
         </div>
@@ -42,28 +42,28 @@
           <h3 class="font-semibold text-[20px] text-white lg:mt-0 mt-[15px]">Материалы</h3>
           <ul class="space-y-2 mt-[20px]">
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Кейсы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Кейсы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Список функций</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Список функций</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Ответы на вопросы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Ответы на вопросы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Сравнение WMS</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Сравнение WMS</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Кому подойдёт SkladBot</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Кому подойдёт SkladBot</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Инструкции</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Инструкции</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Документы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Документы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Статьи</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Статьи</a>
             </li>
           </ul>
         </div>
@@ -72,28 +72,28 @@
           <h3 class="font-semibold text-[20px] text-white lg:mt-0 mt-[15px]">Компания</h3>
           <ul class="space-y-2 mt-[20px] mr-[67px] lg:mr-0">
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Контакты</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Контакты</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Отзывы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Отзывы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Тарифы</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Тарифы</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Поддержка</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Поддержка</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Фулфилмент</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Фулфилмент</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Каталог ссылок</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Каталог ссылок</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Политика</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Политика</a>
             </li>
             <li>
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Оферта</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Оферта</a>
             </li>
           </ul>
         </div>
@@ -102,11 +102,11 @@
           <h3 class="font-semibold text-[20px] text-white lg:mt-0 mt-[15px]">Соцсети</h3>
           <ul class="space-y-2 mt-[20px] mr-[17px] lg:mr-0">
             <li class="flex space-x-2">
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Канал в Телеграме</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Канал в Телеграме</a>
               <img src="/images/telegram.svg" alt="icon" />
             </li>
             <li class="flex space-x-2">
-              <a href="" class="hover:text-black transition duration-200 ease-out text-white">Чат владельцев ФФ</a>
+              <a href="" class="hover:text-gray-300 transition duration-200 ease-out text-white">Чат владельцев ФФ</a>
               <img src="/images/telegram.svg" alt="icon" />
             </li>
           </ul>

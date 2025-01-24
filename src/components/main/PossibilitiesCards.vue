@@ -1,6 +1,6 @@
 <template>
   <div class="mt-[50px] ">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-14">
+    <div class="lg:grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 lg:gap-[140px] space-y-6 lg:space-y-0">
       
       <!-- Card 1 -->
       <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto">
@@ -38,7 +38,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto">
+      <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto ">
         <img
           src="/images/tcd.svg"
           alt="Tcd_image"
@@ -57,7 +57,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto">
+      <div class="bg-white p-6 rounded-2xl w-full max-w-[476px] mx-auto ">
         <img
           src="/images/brend.svg"
           alt="Brending_image"
