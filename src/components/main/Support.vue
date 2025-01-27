@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center mt-[100px] px-4">
+    <div class="flex justify-center items-center mt-[180px] px-4">
       <div class="w-full max-w-7xl">
         <h1 class="font-semibold text-[32px] md:text-[40px] text-center">
           Поддержка
@@ -66,13 +66,6 @@
     </div>
   </template>
   
-  <script>
-  export default {
-    name: 'Support',
-  };
+  <script setup>
   </script>
-  
-  <style scoped>
-  /* Your styles here */
-  </style>
   

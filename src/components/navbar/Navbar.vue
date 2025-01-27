@@ -102,36 +102,26 @@
     >
       <ul class="space-y-3">
         <li
-          class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-black text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
-          @click="handleMouseEnter('Функционал')"
-        >
-          Функционал
-        </li>
-        <li
           class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
         >
-          <router-link to="/">Тарифы</router-link>
+          <router-link to="/calendar">Календарь</router-link>
         </li>
         <li
           class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
-          @click="handleMouseEnter('Материалы')"
         >
-          Материалы
+        <router-link to="/werehouse">Склад</router-link>
         </li>
         <li
           class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
         >
-          Инструкции
+        <router-link to="/fbs">Fbs</router-link>
         </li>
-        <li
-          class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
-        >
-          Поддержка
-        </li>
+
       </ul>
-      <div class="mt-4 space-y-2">
+      <div class="mt-4 space-y-4 items-center grid grid-cols-2">
         <a href="https://online.skladbot.ru/login" target="_blank">
-          <button class="w-full text-[#3C57FF] font-semibold">Войти</button>
+          <button class="relative text-[#3C57FF] font-semibold group w-full mt-3">Войти
+          </button>
         </a>
         <a href="https://t.me/APPSkladbot" target="_blank">
           <button

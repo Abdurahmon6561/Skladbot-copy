@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center mt-[120px] px-4">
+  <div class="flex justify-center items-center mt-[180px] px-4">
     <div class="w-full">
       <h1 class="font-semibold text-[32px] md:text-[40px] text-center">
         Результаты внедрения
