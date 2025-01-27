@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center lg:p-6 mt-[180px] container items-center mx-auto">
+    <div class="flex justify-center lg:p-6 mt-[140px] container items-center mx-auto">
       <div class="lg:flex justify-around bg-[#3C57FF] lg:rounded-[40px] lg:h-[415px] w-full lg:p-[40px] p-4">
         <div>
           <img src="/images/footer_logo.svg" alt="logo" />

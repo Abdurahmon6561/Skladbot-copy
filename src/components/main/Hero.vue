@@ -32,7 +32,7 @@
       >
         <button
           @click="scrollToPresentation"
-          class="bg-[#3C57FF] rounded-md text-white font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8"
+          class="bg-[#3C57FF] rounded-md text-white font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8 "
         >
           Получить видео-презентацию
         </button>

@@ -20,7 +20,7 @@
         </button>
       </div>
       <div
-        class="bg-white mt-6 rounded-2xl flex flex-col sm:w-full md:w-full lg:w-[1159px] lg:ml-0 lg:px-4 sm:flex-col md:flex-col lg:flex-row"
+        class="bg-white mt-6 rounded-2xl flex flex-col sm:w-full md:w-full  lg:ml-0 lg:px-4 sm:flex-col md:flex-col lg:flex-row"
       >
         <div class="ml-[20px] sm:ml-[20px] md:ml-[30px] lg:ml-[52px]">
           <div class="p-6">
@@ -46,7 +46,7 @@
         <img
           src="/images/business_process.svg"
           alt="image"
-          class="mr-[-2px] lg:ml-[125px] mb-[-1px] sm:mr-[-2px] sm:mb-[-1px] md:mr-[-2px] md:mb-[-1px] lg:mr-[-2px] lg:mb-[-1px] w-full sm:w-full md:w-full lg:w-[50%] mt-4 sm:mt-6 md:mt-8 lg:mt-0"
+          class="mr-[-2px] lg:ml-[125px] mb-[-1px] sm:mr-[-2px] sm:mb-[-1px] md:mr-[-2px] md:mb-[-1px] lg:mr-[-42px] lg:mb-[-1px] w-full sm:w-full md:w-full lg:w-[50%] mt-4 sm:mt-6 md:mt-8 lg:mt-0"
         />
       </div>
       <Cards />

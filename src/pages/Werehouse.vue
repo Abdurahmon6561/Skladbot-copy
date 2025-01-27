@@ -35,13 +35,13 @@
         class="flex flex-col lg:flex-row gap-4 mt-10 lg:mt-14 justify-center"
       >
         <button
-        class="bg-[#3C57FF] rounded-md text-white font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8"
+        class="bg-[#3C57FF] rounded-md text-white font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8 transition duration-700 ease-in-out hover:scale-105"
         @click="scrollToPresentation"
         >
           Получить видео-презентацию
         </button>
         <button
-          class="border-[#cad9fc] border bg-white shadow-sm rounded-md text-[#3C57FF] font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8"
+          class="border-[#cad9fc] border bg-white shadow-sm rounded-md text-[#3C57FF] font-semibold p-3 h-[56px] w-full lg:w-auto lg:px-8 transition duration-700 ease-in-out hover:scale-105"
         >
           Готовы оплатить
         </button>
@@ -70,7 +70,7 @@ import Cards from "../components/main/Cards.vue";
 import Presentation from "../components/main/Presentation.vue";
 import Possibilities from "../components/tarif/Possibilities.vue";
 import Results from "../components/main/Results.vue";
-import Support from "../components/main/Support.vue";
+import Support from "../components/tarif/Support.vue";
 import Answers from "../components/tarif/Answers.vue";
 import Footer from "../components/footer/Footer.vue";
 import { ref } from "vue";

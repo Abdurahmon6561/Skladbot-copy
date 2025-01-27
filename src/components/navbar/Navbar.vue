@@ -1,22 +1,35 @@
 <template>
   <div class="relative flex justify-between items-center p-2">
+    <div class="lg:hidden flex justify-between items-center w-full">
+      <button
+        class="block md:hidden p-2"
+        @click="isMobileMenuOpen = !isMobileMenuOpen"
+      >
+        <img src="/images/hamburger-response.svg" alt="Menu" class="h-6 w-6" />
+      </button>
+
+      <div class="flex-grow flex justify-center">
+        <router-link to="/">
+          <img src="/images/logo.svg" alt="logo" class="md:hidden h-8" />
+        </router-link>
+      </div>
+
+      <div class="w-6 h-6"></div>
+    </div>
+
     <router-link to="/">
-      <img src="/images/logo.svg" alt="logo" class="lg:w-[83px]" />
+      <img
+        src="/images/logo.svg"
+        alt="logo"
+        class="lg:w-[83px] hidden md:block"
+      />
     </router-link>
 
-    <!-- Hamburger  -->
-    <button
-      class="block md:hidden p-2"
-      @click="isMobileMenuOpen = !isMobileMenuOpen"
-    >
-      <img src="/images/hamburger.svg" alt="Menu" />
-    </button>
-
-    <!-- Desktop and Tablet Navigation -->
+    <!-- Desktop  -->
     <nav class="hidden md:flex justify-between ml-[90px]">
       <ul class="flex space-x-3">
         <li
-          class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-black text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
+          class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-black text-[16px] rounded-md transition-transform duration-700 cursor-pointer "
           @mouseenter="handleMouseEnter('Функционал')"
           @mouseleave="handleMouseLeave"
         >
@@ -32,7 +45,7 @@
         <li
           class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
         >
-          <router-link to="/tarif">Тарифы</router-link>
+          <router-link to="/">Тарифы</router-link>
         </li>
         <li
           class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
@@ -61,10 +74,15 @@
       </ul>
     </nav>
 
-    <!-- Desktop and Tablet Buttons -->
+    <!-- Desktop -->
     <div class="hidden md:flex space-x-4">
       <a href="https://online.skladbot.ru/login" target="_blank" class="mt-2">
-        <button class="text-[#3C57FF] font-semibold">Войти</button>
+        <button class="relative text-[#3C57FF] font-semibold group">
+          Войти
+          <span
+            class="absolute bottom-0 left-0 w-0 h-[2px] bg-blue-500 transition-all duration-300 ease-in-out group-hover:w-full"
+          ></span>
+        </button>
       </a>
 
       <a href="https://t.me/APPSkladbot" target="_blank">
@@ -77,7 +95,7 @@
       </a>
     </div>
 
-    <!-- Mobile Menu (Visible on Phones) -->
+    <!-- Mobile  -->
     <div
       v-if="isMobileMenuOpen"
       class="absolute top-[100%] left-0 w-full bg-white z-50 md:hidden p-4 shadow-md"
@@ -92,7 +110,7 @@
         <li
           class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
         >
-          <router-link to="/tarif">Тарифы</router-link>
+          <router-link to="/">Тарифы</router-link>
         </li>
         <li
           class="relative flex gap-2 p-2 font-normal hover:bg-[#E7EEFF] hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"

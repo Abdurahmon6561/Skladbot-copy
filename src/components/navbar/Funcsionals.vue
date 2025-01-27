@@ -72,7 +72,7 @@
   
           <div
             class="flex space-x-4 rounded-md p-2 cursor-pointer hover:bg-[#E7EEFF]"
-            @click="navigateToPage('/')"
+            @click="navigateToPage('/werehouse')"
           >
             <div>
               <div class="p-2 bg-[#E7EEFF] rounded-md">

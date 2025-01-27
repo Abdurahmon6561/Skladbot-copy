@@ -94,7 +94,8 @@
         >
           <div class="flex justify-between items-center space-x-3">
             <h2 class="font-bold lg:text-[15px] text-[13px] text-left">
-                Можно ли создать комплект товаров. Например, сковорода плюс крышка?
+              Можно ли создать комплект товаров. Например, сковорода плюс
+              крышка?
             </h2>
             <span class="text-[24px]">{{ openIndex === 3 ? "−" : "+" }}</span>
           </div>
@@ -103,8 +104,7 @@
               openIndex === 3 ? 'max-h-full mt-3' : 'max-h-0'
             }`"
           >
-            <p class="text-[14px]">
-            </p>
+            <p class="text-[14px]"></p>
           </div>
         </div>
 
@@ -114,7 +114,7 @@
         >
           <div class="flex justify-between items-center space-x-3">
             <h2 class="font-bold lg:text-[15px] text-[13px]">
-                Как считается хранение?
+              Как считается хранение?
             </h2>
             <span class="text-[24px]">{{ openIndex === 4 ? "−" : "+" }}</span>
           </div>
@@ -123,8 +123,7 @@
               openIndex === 4 ? 'max-h-full mt-3' : 'max-h-0'
             }`"
           >
-            <p class="text-[14px]">
-            </p>
+            <p class="text-[14px]"></p>
           </div>
         </div>
 
@@ -134,7 +133,7 @@
         >
           <div class="flex justify-between items-center space-x-3">
             <h2 class="font-bold lg:text-[15px] text-[13px] text-left">
-                Есть ли разделение в модуле FBS по складам?
+              Есть ли разделение в модуле FBS по складам?
             </h2>
             <span class="text-[24px]">{{ openIndex === 5 ? "−" : "+" }}</span>
           </div>
@@ -143,11 +142,9 @@
               openIndex === 5 ? 'max-h-full mt-3' : 'max-h-0'
             }`"
           >
-            <p class="text-[14px]">
-            </p>
+            <p class="text-[14px]"></p>
           </div>
         </div>
-
 
         <div
           class="bg-white p-4 rounded-xl mb-4 cursor-pointer lg:w-[720px]"
@@ -155,8 +152,8 @@
         >
           <div class="flex justify-between items-center space-x-3">
             <h2 class="font-bold lg:text-[15px] text-[13px] text-left">
-                Можно ли объединить бизнес-процессы. 
-Например, приемку и отгрузку, забор товара и приемку?
+              Можно ли объединить бизнес-процессы. <br />
+              Например, приемку и отгрузку, забор товара и приемку?
             </h2>
             <span class="text-[24px]">{{ openIndex === 6 ? "−" : "+" }}</span>
           </div>
@@ -165,8 +162,7 @@
               openIndex === 6 ? 'max-h-full mt-3' : 'max-h-0'
             }`"
           >
-            <p class="text-[14px]">
-            </p>
+            <p class="text-[14px]"></p>
           </div>
         </div>
 
@@ -176,7 +172,7 @@
         >
           <div class="flex justify-between items-center space-x-3">
             <h2 class="font-bold lg:text-[15px] text-[13px] text-left">
-                Можно ли передать номинальный остаток на карточку товара? 
+              Можно ли передать номинальный остаток на карточку товара? 
             </h2>
             <span class="text-[24px]">{{ openIndex === 7 ? "−" : "+" }}</span>
           </div>
@@ -185,8 +181,7 @@
               openIndex === 7 ? 'max-h-full mt-3' : 'max-h-0'
             }`"
           >
-            <p class="text-[14px]">
-            </p>
+            <p class="text-[14px]"></p>
           </div>
         </div>
       </div>
