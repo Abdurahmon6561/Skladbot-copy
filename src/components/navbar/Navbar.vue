@@ -116,6 +116,24 @@
         >
         <router-link to="/fbs">Fbs</router-link>
         </li>
+        <li
+          class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
+        >
+        <router-link to="/orders">Центр заявок</router-link>
+        </li>
+
+        <li
+          class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
+        >
+        <router-link to="/clients">Клиенты</router-link>
+        </li>
+
+        <li
+          class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
+        >
+        <router-link to="/employears">Сотрудники</router-link>
+        </li>
+        
 
       </ul>
       <div class="mt-4 space-y-4 items-center grid grid-cols-2">

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center mt-[180px] px-4">
+  <div class="flex justify-center items-center mt-[180px] lg:px-[110px]">
     <div class="w-full">
       <h1 class="font-semibold text-[32px] md:text-[40px] text-center">
         Результаты внедрения
@@ -12,7 +12,7 @@
       >
         <!-- First card -->
         <div
-          class="w-full lg:w-[696px] bg-white p-4 md:p-6 rounded-2xl flex-shrink-0 lg:ml-[300px] ml-0"
+          class="w-full lg:w-[696px] bg-white p-4 md:p-6 rounded-2xl flex-shrink-0 lg:ml-[200px] ml-0"
         >
           <h2
             class="font-semibold text-[22px] md:text-[28px] text-[#3F4685] text-center md:text-left"
@@ -100,7 +100,7 @@
                 </p>
               </div>
 
-              <div class="mt-[30px]">
+              <div class="mt-[30px] hidden lg:block">
                 <h4 class="opacity-60 text-white">Роман Скороходов</h4>
                 <p class="font-semibold text-white">Фулсар</p>
               </div>
@@ -131,8 +131,10 @@
                 </p>
               </div>
             </div>
+            <p class=" lg:hidden text-white font-[500] text-[16px]"> Команда SellerLab</p>
           </div>
         </div>
+
       </div>
 
       <!-- Scrollable arrows -->

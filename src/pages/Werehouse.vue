@@ -7,7 +7,6 @@
     class="flex justify-center items-center mt-[66px] text-center px-4 lg:px-0"
   >
     <div>
-      <!-- Trophy Section -->
       <div
         class="gap-3 text-[16px] text-center justify-center items-center hidden sm:flex"
       >
@@ -15,7 +14,6 @@
         <p class="font-normal">Лучшие стартапы России. Продукт недели #2</p>
       </div>
 
-      <!-- Header Section -->
       <div class="w-full lg:w-[771px] text-center mt-[40px]">
         <h1 class="font-semibold text-[30px] lg:text-[50px]">
           Автоматический учёт остатков на складе с помощью SkladBot
@@ -30,7 +28,6 @@
         </p>
       </div>
 
-      <!-- Button Section -->
       <div
         class="flex flex-col lg:flex-row gap-4 mt-10 lg:mt-14 justify-center"
       >

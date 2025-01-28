@@ -21,7 +21,7 @@
   
           <div
             class="flex space-x-4 rounded-md p-2 cursor-pointer hover:bg-[#E7EEFF]"
-            @click="navigateToPage('/')"
+            @click="navigateToPage('/clients')"
           >
             <div>
               <div class="p-2 bg-[#E7EEFF] rounded-md">
@@ -55,7 +55,7 @@
   
           <div
             class="flex space-x-4 rounded-md p-2 cursor-pointer hover:bg-[#E7EEFF]"
-            @click="navigateToPage('/orders')"
+            @click="navigateToPage('/documents')"
           >
             <div>
               <div class="p-2 bg-[#E7EEFF] rounded-md">
@@ -89,7 +89,7 @@
   
           <div
             class="flex space-x-4 rounded-md p-2 cursor-pointer hover:bg-[#E7EEFF]"
-            @click="navigateToPage('/')"
+            @click="navigateToPage('/employears')"
           >
             <div>
               <div class="p-2 bg-[#E7EEFF] rounded-md">
@@ -140,7 +140,7 @@
   
           <div
             class="flex space-x-4 rounded-md p-2 cursor-pointer hover:bg-[#E7EEFF]"
-            @click="navigateToPage('/')"
+            @click="navigateToPage('/orders')"
           >
             <div>
               <div class="p-2 bg-[#E7EEFF] rounded-md">
