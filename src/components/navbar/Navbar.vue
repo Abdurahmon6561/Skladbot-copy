@@ -59,7 +59,7 @@
             class="mt-1 transition-transform duration-300"
             :class="{ 'rotate-180 filter-blue': selectedItem === 'Материалы' }"
           />
-          <Funcsionals v-if="selectedItem === 'Материалы'" />
+          <!-- <Funcsionals v-if="selectedItem === 'Материалы'" /> -->
         </li>
         <li
           class="p-2 hover:bg-[#E7EEFF] font-normal hover:text-[#0539D3] text-[16px] rounded-md transition-transform duration-700 cursor-pointer"
