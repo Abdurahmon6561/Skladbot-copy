@@ -7,6 +7,8 @@ import Orders from "../pages/Orders.vue";
 import Clients from "../pages/Clients.vue";
 import Employears from "../pages/Employears.vue";
 import Documents from "../pages/Documents.vue";
+import Business from "../pages/Business.vue";
+import Presentation from "../pages/Presentation.vue";
 
 const routes = [
   { path: '/', component: Main },
@@ -16,7 +18,9 @@ const routes = [
   { path: '/orders', component: Orders }, 
   { path: '/clients', component: Clients }, 
   { path: '/employears', component: Employears }, 
-  { path: '/documents', component: Documents },  
+  { path: '/documents', component: Documents }, 
+  { path: '/business', component: Business },
+  { path: '/presentation', component: Presentation }, 
 ];
 
 const router = createRouter({
